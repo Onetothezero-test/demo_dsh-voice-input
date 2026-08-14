@@ -1,0 +1,12 @@
+# 依赖与缓存
+node_modules/
+.npm-cache/
+
+# 日志与临时文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 下载断点续传的中间分块（若有）
+*.parts/
+*.part/

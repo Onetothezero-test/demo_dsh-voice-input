@@ -1,0 +1,24 @@
+{
+  "name": "voice-input-plugin",
+  "version": "0.1.0",
+  "description": "离线中文语音输入插件：composer 麦克风按钮，按住说话 → 本机 WASM 识别 → 文字插入输入框",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
