@@ -1,5 +1,6 @@
 # 🎤 dsh-voice-input —— DeepSeek Harness 离线中文语音输入
 
+这是纯粹使用Deepseek Harness/Deepseek-V4-Flash生成的一个工具插件，个人使用，仅供一乐。
 按住说话 → **本机 WASM 识别** → 文字写入输入框（供编辑后发送）。
 全程离线，音频不出机器，无需任何云端服务。
 
